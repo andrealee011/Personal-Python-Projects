@@ -1,3 +1,5 @@
+# michelle edit
+
 from tweepy import API 
 from tweepy import Cursor
 from tweepy import OAuthHandler
@@ -140,4 +142,5 @@ if __name__ == '__main__':
         ax.text(bar.get_x() + bar.get_width()*0.5, bar.get_height(), bar.get_height(), ha='center', va='bottom')
 
     plt.show()
+
 
